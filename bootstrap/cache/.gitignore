@@ -1,2 +1,3 @@
 *
 !.gitignore
+icacls /caminho/completo/para/bootstrap/cache /grant Everyone:F /T
