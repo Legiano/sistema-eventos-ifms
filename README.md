@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# 📦 Nome do Projeto
+# 📦 Sistema de Eventos IFMS
 
 Sistema desenvolvido em **Laravel**, utilizando o padrão MVC e as melhores práticas do framework.
 
@@ -30,7 +30,7 @@ Sistema desenvolvido em **Laravel**, utilizando o padrão MVC e as melhores prá
 ## ▶️ Como Executar o Projeto
 
 1. Clone o repositório:  
-   git clone https://github.com/seuusuario/seu-projeto.git
+ git clone https://github.com/seuusuario/seu-projeto.git
 
 2. Instale as dependências:
    composer install
@@ -38,7 +38,7 @@ Sistema desenvolvido em **Laravel**, utilizando o padrão MVC e as melhores prá
 3. Copie o arquivo .env.example para .env e configure as variáveis de ambiente:
    .env.example .env
 
-4.Gere a chave da aplicação:
+ 4.Gere a chave da aplicação:
    php artisan key:generate
 
 5. Configure o banco de dados no arquivo .env.
