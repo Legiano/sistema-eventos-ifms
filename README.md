@@ -7,7 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 # 📦 Nome do Projeto
 
 Sistema desenvolvido em **Laravel**, utilizando o padrão MVC e as melhores práticas do framework.
@@ -31,12 +30,21 @@ Sistema desenvolvido em **Laravel**, utilizando o padrão MVC e as melhores prá
 ## ▶️ Como Executar o Projeto
 
 1. Clone o repositório:  
-   ```bash
    git clone https://github.com/seuusuario/seu-projeto.git
 
+2. Instale as dependências:
+   composer install
+   
+3. Copie o arquivo .env.example para .env e configure as variáveis de ambiente:
+   .env.example .env
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+4.Gere a chave da aplicação:
+   php artisan key:generate
 
-## License
+5. Configure o banco de dados no arquivo .env.
+6. Execute as migrations:
+    php artisan migrate
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+7. Inicie o servidor local:
+    php artisan serve
+   
