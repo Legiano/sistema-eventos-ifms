@@ -30,17 +30,5 @@ Sistema desenvolvido em **Laravel**, utilizando o padrão MVC e as melhores prá
 ## ▶️ Como Executar o Projeto
 
 1. Clone o repositório:  
- git clone https://github.com/seuusuario/seu-projeto.git
-2. Instale as dependências:
-   composer install
-3. Copie o arquivo .env.example para .env e configure as variáveis de ambiente:
-   .env.example .env
-
- 4.Gere a chave da aplicação:
-   php artisan key:generate
-5. Configure o banco de dados no arquivo .env.
-6. Execute as migrations:
-    php artisan migrate
-7. Inicie o servidor local:
-    php artisan serve
-   
+   ```bash
+   git clone https://github.com/seuusuario/seu-projeto.git
