@@ -150,14 +150,6 @@ Projeto desenvolvido durante o curso de **Tecnologia em Sistemas para Internet (
 
 ---
 
-## 👨‍💻 Autor
-
-**Legiano Lúcio Rodrigues**
-- LinkedIn: https://www.linkedin.com/in/legiano-fernandes
-- GitHub: https://github.com/Legiano
-
----
-
 ## 📄 Licença
 
 Este projeto foi desenvolvido para fins acadêmicos.
