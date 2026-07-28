@@ -64,6 +64,7 @@ Durante o desenvolvimento foram aplicados conceitos importantes do framework Lar
 - CSS3
 - Bootstrap
 - JavaScript
+
 ---
 
 ## 📂 Estrutura do Projeto
@@ -129,6 +130,7 @@ php artisan serve
 ```
 
 O sistema ficará disponível em:
+
 http://127.0.0.1:8000
 
 ---
@@ -139,10 +141,12 @@ http://127.0.0.1:8000
 
 Adicione aqui imagens do sistema.
 Exemplo:
+
 docs/
 home.png
 login.png
 dashboard.png
+
 
 Depois basta inserir:
 ```markdown
