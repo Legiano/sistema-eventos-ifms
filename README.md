@@ -53,12 +53,11 @@ Sistema desenvolvido em **Laravel**, para gestão de eventos do IFMS - Campus Co
 
 5. Suba o servidor:  
 ```bash
-
+    php artisan serve
 ```
 6. 🎓 Contexto acadêmico
-
+```bash
 Projeto desenvolvido no âmbito do curso de Tecnologia em Sistemas para Internet (TSI) do IFMS - Campus Coxim.
 
-```bash
    php artisan serve
 ```
