@@ -1,64 +1,251 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 📦 Sistema de Eventos IFMS
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![Laravel](https://img.shields.io/badge/Laravel-10-red)
+
+![PHP](https://img.shields.io/badge/PHP-8.x-blue)
+
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
+
+![Status](https://img.shields.io/badge/Status-Concluído-success)
+
+![License](https://img.shields.io/badge/License-Acadêmico-lightgrey)
 
 # 📦 Sistema de Eventos IFMS
 
-Sistema desenvolvido em **Laravel**, para gestão de eventos do IFMS - Campus Coxim, utilizando o padrão MVC e as melhores práticas do framework.
+Sistema web desenvolvido em **Laravel** para gerenciamento de eventos do **Instituto Federal de Mato Grosso do Sul (IFMS) – Campus Coxim**.
 
-## 🚀 Funcionalidades
+O projeto foi desenvolvido durante o curso de **Tecnologia em Sistemas para Internet (TSI)** com o objetivo de aplicar conceitos de desenvolvimento web utilizando a arquitetura **MVC (Model-View-Controller)**, autenticação de usuários, operações CRUD e integração com banco de dados.
 
-- ✅ Cadastro e autenticação de usuários  
-- ✅ CRUD completo de recursos  
-- ✅ Rotas protegidas por autenticação  
-- ✅ Validação de formulários  
-- ✅ Integração com banco de dados via Eloquent ORM  
+---
 
-## 🛠️ Tecnologias Utilizadas
+## 📖 Sobre o Projeto
 
-- PHP 8.x  
-- Laravel 10.x  
-- MySQL  
-- Composer  
-- Blade Templating  
+O Sistema de Eventos IFMS foi desenvolvido para facilitar o gerenciamento de eventos acadêmicos, permitindo o cadastro, organização e administração das informações por meio de uma interface web intuitiva.
 
-## ▶️ Como Executar o Projeto
+Durante o desenvolvimento foram aplicados conceitos importantes do framework Laravel, como:
 
-1. Clone o repositório:  
+- Arquitetura MVC
+
+- Rotas
+
+- Controllers
+
+- Models
+
+- Blade Templates
+
+- Middleware
+
+- Validação de Formulários
+
+- Eloquent ORM
+
+- Autenticação de Usuários
+
+---
+
+## ✨ Funcionalidades
+
+- 🔐 Cadastro e autenticação de usuários
+
+- 👤 Login e Logout
+
+- 📝 Cadastro de eventos
+
+- ✏️ Edição de eventos
+
+- 🗑️ Exclusão de eventos
+
+- 📋 Listagem de eventos
+
+- 🔒 Rotas protegidas por autenticação
+
+- ✅ Validação de formulários
+
+- 💾 Persistência de dados utilizando MySQL
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- PHP 8.x
+
+- Laravel 10.x
+
+- MySQL
+
+- Composer
+
+- Blade
+
+- HTML5
+
+- CSS3
+
+- Bootstrap
+
+- JavaScript
+
+---
+
+## 📂 Estrutura do Projeto
+
+```
+
+app/
+
+bootstrap/
+
+config/
+
+database/
+
+public/
+
+resources/
+
+routes/
+
+storage/
+
+tests/
+
+```
+
+---
+
+## 🚀 Como Executar o Projeto
+
+### 1. Clone o repositório
+
 ```bash
-   git clone https://github.com/Legiano/sistema-eventos-ifms.git
-   cd sistema-eventos-ifms
+
+git clone https://github.com/Legiano/sistema-eventos-ifms.git
+
+cd sistema-eventos-ifms
+
 ```
 
-2. Instale as dependências:  
+### 2. Instale as dependências
+
 ```bash
-   composer install
+
+composer install
+
 ```
 
-3. Copie o arquivo de ambiente e gere a chave da aplicação:  
+### 3. Configure o ambiente
+
+Copie o arquivo `.env.example` para `.env`
+
 ```bash
-   cp .env.example .env
-   php artisan key:generate
+
+cp .env.example .env
+
 ```
 
-4. Configure o banco de dados no `.env` e rode as migrations:  
+Depois gere a chave da aplicação:
+
 ```bash
-   php artisan migrate
+
+php artisan key:generate
+
 ```
 
-5. Suba o servidor:  
+---
+
+### 4. Configure o banco de dados
+
+Edite o arquivo `.env` e configure as informações do seu banco de dados:
+
+```env
+
+DB_DATABASE=nome_do_banco
+
+DB_USERNAME=usuario
+
+DB_PASSWORD=senha
+
+```
+
+---
+
+### 5. Execute as migrations
+
 ```bash
-   php artisan serve
+
+php artisan migrate
+
 ```
 
-## 🎓 Contexto acadêmico
+---
 
-Projeto desenvolvido no âmbito do curso de Tecnologia em Sistemas para Internet (TSI) do IFMS - Campus Coxim.
+### 6. Inicie o servidor
 
-   php artisan serve
+```bash
+
+php artisan serve
+
 ```
+
+O sistema ficará disponível em:
+
+```
+
+http://127.0.0.1:8000
+
+```
+
+---
+
+## 📸 Demonstração
+
+Adicione aqui imagens do sistema.
+
+Exemplo:
+
+```
+
+docs/
+
+    home.png
+
+    login.png
+
+    dashboard.png
+
+```
+
+Depois basta inserir:
+
+```markdown
+
+![Tela Inicial](docs/home.png)
+
+![Login](docs/login.png)
+
+![Dashboard](docs/dashboard.png)
+
+```
+
+---
+
+## 🎓 Contexto Acadêmico
+
+Projeto desenvolvido durante o curso de **Tecnologia em Sistemas para Internet (TSI)** do **Instituto Federal de Mato Grosso do Sul (IFMS) – Campus Coxim**, com o objetivo de aplicar na prática os conhecimentos adquiridos nas disciplinas de desenvolvimento web utilizando o framework Laravel.
+
+---
+
+## 👨‍💻 Autor
+
+**Legiano Lúcio Rodrigues**
+
+- LinkedIn: https://www.linkedin.com/in/legiano-fernandes
+
+- GitHub: https://github.com/Legiano
+
+---
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins acadêmicos.
